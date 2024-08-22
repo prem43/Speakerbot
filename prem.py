@@ -76,7 +76,7 @@ if __name__ == "__main__":
                 speak("Sorry, I was unable to open YouTube.")
         elif 'tell me about yourself' in query:
             try:
-                response = "Myself Prem Ranjan. I am from Patna and I am a Fullstack Developer. Currently, I am pursuing my B.Tech from Gyan Ganga College."
+                response = "Myself Prem Ranjan."
                 print(f"Speaking: {response}")  # Print the response to verify
                 speak(response)
             except Exception as e:
