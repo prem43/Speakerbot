@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
         elif 'open code' in query:
             try:
-                codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                codePath = "C:\\Users\\Prems\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
                 os.startfile(codePath)
             except Exception as e:
                 print(f"Error opening VS Code: {e}")
